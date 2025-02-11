@@ -49,4 +49,6 @@ id_bairro NUMBER
 ALTER TABLE endereco_cliente ADD PRIMARY KEY (id_endereco);
 
 ALTER TABLE endereco_cliente ADD CONSTRAINT fk_bairro FOREIGN KEY (id_bairro) 
-REFERENCES endereco_cliente (id_bairro);
+REFERENCES endereco_cliente (id_bairro)
+
+INSERT
